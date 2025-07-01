@@ -1,0 +1,200 @@
+.subsButton{
+        background-color: rgb(200, 0, 0);
+        color: white;
+        border: none;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 3px;
+        cursor:pointer;
+        margin-right: 4px;
+        margin-left: 4px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        transition: opacity 0.15s;
+    }
+
+    .subsButton:hover{
+        opacity: 0.8;
+    }
+
+    .subsButton:active{
+        background-color: rgb(190, 80, 80);
+    }
+
+
+    .Join{
+        background-color: white;
+        color: rgb(2,158,155);
+        border-style:solid ;
+        border-color: rgb(2,158,155);
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-width: 2px;
+        border-radius: 3px;
+        margin-left: 4;
+        margin-right: 4px;
+        border-width: 3;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        cursor:pointer;
+        vertical-align: top;
+        transition: opacity 0.15s, color 0.15s, background-color 0.15s;
+    }
+
+    .Join:hover{
+        color:white;
+        background-color: rgb(2,158,155);
+        opacity: 0.7;
+    }
+    .Tweet{
+        background-color: rgb(29,161,242);
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 4;
+        margin-right: 4;
+        border-radius: 50px;
+        font-size: 14;
+        cursor: pointer;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border: none;
+        border-color: rgb(29,161,242);
+        border-style: solid;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+             Helvetica, Arial, sans-serif, "Apple Color Emoji",
+             "Segoe UI Emoji", "Segoe UI Symbol";
+        font-weight: bold;
+
+        transition: box-color 0.15s;
+
+    }
+
+    .Tweet:hover{
+        box-shadow: 3px 3px 10px rgba(0,0,0,0.50);
+    }
+
+    .Uber{
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: solid;
+        margin-left: 4;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-right: 4px;
+        cursor: pointer;
+    }
+
+    .Amazon{
+        background-color:rgb(255, 216, 20);
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 15;
+        margin-left: 4;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-right: 4px;
+        font-weight: bold;
+        border-radius: 30px;
+        cursor: pointer;
+
+    }
+    .GitHub{
+        background-color: rgba(91, 181, 91, 0.971);
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: solid;
+        margin-left: 4;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-right: 4px;
+        border-radius: 8px;
+        font-weight: bold;
+        cursor: pointer;
+        
+    }
+    .BSGS{
+        background-color:rgb(170, 93, 237);
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: none;
+        border-radius: 4px;
+        margin-left: 4;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-right: 4px;
+        color: white;
+        font-weight: bold;
+
+    }
+    .BSDL{
+        background-color: white;
+        color: gray;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: bold;
+        border-color:gray ;
+        border: solid;
+        margin-left: 4;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-right: 4px;
+        border-width: 2px;
+        border-radius: 4px;
+
+    }
+    .Linkedin{
+        background-color: rgb(10, 102, 194);
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border: solid;
+        margin-left: 4;
+        margin-right: 4px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 14;
+    }
+    .Save{
+        background-color: white;;
+        color: rgb(10, 102, 194);
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 25px;
+        margin-left: 4;
+        margin-right: 4px;
+        font-weight: bold;
+        font-size: 16;
+        border-color: rgb(10, 102, 194);
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border: solid;
+        border-width: 2;
+
+    }

@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task2</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        p {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-family: "Roboto", sans-serif;
+
+        }
+
+        .Tweet {
+            background-color: rgb(29, 161, 242);
+            color: white;
+
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 45px;
+            margin-right: 40px;
+            border-radius: 50px;
+            font-size: 14;
+            cursor: pointer;
+            margin-top: 40px;
+            margin-bottom: 5px;
+            border: none;
+            border-color: rgb(29, 161, 242);
+            border-style: solid;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                Helvetica, Arial, sans-serif, "Apple Color Emoji",
+                "Segoe UI Emoji", "Segoe UI Symbol";
+            font-weight: bold;
+            height: 60px;
+
+            transition: box-color 0.15s;
+
+        }
+
+        .Tweet:hover {
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.50);
+        }
+
+        .box {
+            margin-top: 5px;
+            margin-left: 5px;
+            margin-bottom: 5px;
+            width: 500px;
+            height: 200px;
+            display: block;
+        }
+
+        .thumbnail {
+            width: 30%;
+            display: inline-block;
+        }
+
+        .logo {
+            width: 100%;
+        }
+
+        .text {
+            display: inline-block;
+            width: 50%px;
+            vertical-align: top;
+        }
+
+        .description {
+            font-family: "Roboto", sans-serif;
+            font-weight: 600;
+            line-height: 4;
+        }
+
+        .author,
+        .stats {
+            font-family: "Roboto", sans-serif;
+            color: rgb(97, 97, 97);
+            font-size: 14px;
+            line-height: 2;
+
+        }
+
+        .oliver {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 8px;
+            row-gap: 4px;
+
+        }
+
+        .img {
+            width: 100%;
+        }
+
+        .details-img {
+            display: inline-block;
+            width: 80px;
+
+        }
+
+        .details-text {
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 30px;
+        }
+
+        .imground {
+            width: 100%;
+            height: 50%;
+            border-radius: 100%;
+            margin-top: 55px;
+            margin-left: 5px;
+        }
+
+        .intro {
+            font-family: "Roboto", sans-serif;
+        }
+
+        #int {
+            font-weight: 900;
+        }
+
+        #time {
+            color: gray;
+        }
+
+        #message-header {
+            font-weight: 600;
+        }
+
+        #message {
+            color: gray;
+        }
+    </style>
+</head>
+
+<body style="padding-bottom: 1000px;">
+    <div class="oliver">
+        <img src="logo.jpg" class="img">
+        <img src="logo.jpg" class="img">
+        <img src="logo.jpg" class="img">
+
+
+        <div>
+
+            <p class="stats">
+                Oliver
+            </p>
+            <div class="details-img">
+                <img src="logo.jpg" class="imground">
+            </div>
+            <div class="details-text">
+
+                <p class="name">
+                    2 mutual friends
+                </p>
+            </div>
+
+
+            <button class="button">
+                Add Friend
+            </button>
+        </div>
+        <div>
+
+            <p class="stats">
+                Oliver
+            </p>
+            <div class="details-img">
+                <img src="logo.jpg" class="imground">
+            </div>
+            <div class="details-text">
+
+                <p class="name">
+                    2 mutual friends
+                </p>
+            </div>
+
+
+            <button class="button">
+                Add Friend
+            </button>
+        </div>
+        <div>
+
+            <p class="stats">
+                Oliver
+            </p>
+            <div class="details-img">
+                <img src="logo.jpg" class="imground">
+            </div>
+            <div class="details-text">
+
+                <p class="name">
+                    2 mutual friends
+                </p>
+            </div>
+
+
+            <button class="button">
+                Add Friend
+            </button>
+        </div>
+
+
+    </div>
+
+
+    <br>
+    <br>
+
+    <div style="display: grid;
+    grid-template-columns:90px 1fr 100px;
+    align-items:center;
+    height:100px;
+    font-family: sans-serif;
+    padding: 10px;
+    gap: 10px;">
+
+        <div>
+            <img src="logo.jpg" style="width:70px;
+        height:70px;
+        border-radius:50%">
+        </div>
+
+        <div style="display: flex;
+    flex-direction:column;
+    justify-content:center;
+    ">
+            <div style="font-weight: bold;">Oliver</div>
+            <div style="color: gray;">the cat</div>
+            <div style="color: gray; font-size: 14px;">Popular</div>
+
+        </div>
+        <button style="background-color: #1DA1F2; color: white; border: none;
+            padding: 8px 16px; border-radius: 5px; font-weight: bold; cursor: pointer;">
+            Follow
+        </button>
+    </div>
+    <div style="display: grid;
+    grid-template-columns:90px 1fr 100px;
+    align-items:center;
+    height:100px;
+    font-family: sans-serif;
+    padding: 10px;
+    gap: 10px;">
+
+        <div>
+            <img src="logo.jpg" style="width:70px;
+        height:70px;
+        border-radius:50%">
+        </div>
+
+        <div style="display: flex;
+    flex-direction:column;
+    justify-content:center;
+    ">
+            <div style="font-weight: bold;">Oliver</div>
+            <div style="color: gray;">the cat</div>
+            <div style="color: gray; font-size: 14px;">Popular</div>
+
+        </div>
+        <button style="background-color: #1DA1F2; color: white; border: none;
+            padding: 8px 16px; border-radius: 5px; font-weight: bold; cursor: pointer;">
+            Follow
+        </button>
+    </div>
+    <div style="display: grid;
+    grid-template-columns:90px 1fr 100px;
+    align-items:center;
+    height:100px;
+    font-family: sans-serif;
+    padding: 10px;
+    gap: 10px;">
+
+        <div>
+            <img src="logo.jpg" style="width:70px;
+        height:70px;
+        border-radius:50%">
+        </div>
+
+        <div style="display: flex;
+    flex-direction:column;
+    justify-content:center;
+    ">
+            <div style="font-weight: bold;">Oliver</div>
+            <div style="color: gray;">the cat</div>
+            <div style="color: gray; font-size: 14px;">Popular</div>
+
+        </div>
+        <button style="background-color: #1DA1F2; color: white; border: none;
+            padding: 8px 16px; border-radius: 5px; font-weight: bold; cursor: pointer;">
+            Follow
+        </button>
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+
+    <div style="
+    display: flex;
+    height: 35px;
+    flex-direction:row;
+    justify-content:space-between;
+    background-color:rgb(118, 56, 176);
+    align-items:center;
+    border-style:solid;
+    font-family: sans-serif;
+    color:white;
+    padding:10px;
+    ">
+        <span style="font-weight: bold;">
+            Home
+        </span>
+
+        <div>
+            <input type="text" placeholder="Search" style="width: 350px;
+            height:20px;
+            border-radius:30px;
+            border-style:solid;
+            padding-left:20px;
+            font-size: 14px;">
+        </div>
+
+        <div>
+            <button style="background-color:rgb(118, 56, 176);
+            color:white;
+            height:35px;
+            font-weight:300;
+            padding-left:15px;
+            padding-right:15px;
+            border-color:white;
+            ">
+                <span>
+                    DOWNLOAD
+                </span>
+            </button>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+
+    <div style="display:flex;
+    font-family: Roboto;
+    height:40px;
+    padding-left:14px;
+    color:gray">
+        ALL INBOXES
+    </div>
+
+    <div style="display:flex;
+    flex-direction:row;
+
+    ">
+        <div style="width: 100px;">
+            <img src="logo.jpg" style="height: 80px;
+        width:80px;
+        border-radius:50%">
+        </div>
+
+        
+        <div style="flex:1;">
+            <div style="display: flex;
+            flex-direction:column;">
+                <div style="display: flex;
+                justify-content:space-between;
+          
+            flex:1;
+            margin-top:4px;
+            margin-bottom:8px">
+                    <span class="intro" id="int">
+                        Chewey Promotions
+                    </span>
+
+                    <span class="intro" id="time">
+                        4:58
+                    </span>
+
+                </div>
+
+                <div style="margin-bottom: 4px;">
+                    <span class="intro" id="message-header">
+                        Biggest sale of the year
+                    </span>
+                </div>
+
+                <div>
+                    <span class="intro" id="message">
+                        Hey there we are waiting to tell you about our...
+                    </span>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <br>
+    <br>
+    <br>
+    
+    <p>
+        New design
+    </p>
+    <br>
+    <br>
+    <br>
+    <div style="display:flex;
+    font-family: Roboto;
+    height:40px;
+    padding-left:14px;
+    color:gray">
+        ALL INBOXES
+    </div>
+   
+    <div style="display:flex;
+    flex-direction:row;
+
+    ">
+        <div style="width: 100px;">
+            <img src="logo.jpg" style="height: 80px;
+        width:80px;
+        border-radius:50%">
+        </div>
+
+        
+        <div style="flex:1;">
+            <div style="display: flex;
+            flex-direction:column;">
+                <div style="display: flex;
+                justify-content:space-between;
+          
+            flex:1;
+            margin-top:4px;
+            margin-bottom:8px">
+                    <span class="intro" id="int">
+                        Chewey Promotions
+                    </span>
+
+                    <span class="intro" id="time">
+                        4:58
+                    </span>
+
+                </div>
+
+                <div style="margin-bottom: 4px;">
+                    <span class="intro" id="message-header">
+                        Biggest sale of the year
+                    </span>
+                </div>
+
+                <div>
+                    <span class="intro" id="message">
+                        Hey there we are waiting to tell you about our...
+                    </span>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    <div style="display:flex;
+    flex-direction:row;
+
+    ">
+        <div style="width: 100px;">
+            <img src="logo.jpg" style="height: 80px;
+        width:80px;
+        border-radius:50%">
+        </div>
+
+        
+        <div style="flex:1;">
+            <div style="display: flex;
+            flex-direction:column;">
+                <div style="display: flex;
+                justify-content:space-between;
+          
+            flex:1;
+            margin-top:4px;
+            margin-bottom:8px">
+                    <span class="intro" id="int">
+                        Chewey Promotions
+                    </span>
+
+                    <span class="intro" id="time">
+                        4:58
+                    </span>
+
+                </div>
+
+                <div style="margin-bottom: 4px;">
+                    <span class="intro" id="message-header">
+                        Biggest sale of the year
+                    </span>
+                </div>
+
+                <div>
+                    <span class="intro" id="message">
+                        Hey there we are waiting to tell you about our...
+                    </span>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    <div style="display:flex;
+    flex-direction:row;
+
+    ">
+        <div style="width: 100px;">
+            <img src="logo.jpg" style="height: 80px;
+        width:80px;
+        border-radius:50%">
+        </div>
+
+        
+        <div style="flex:1;">
+            <div style="display: flex;
+            flex-direction:column;">
+                <div style="display: flex;
+                justify-content:space-between;
+          
+            flex:1;
+            margin-top:4px;
+            margin-bottom:8px">
+                    <span class="intro" id="int">
+                        Chewey Promotions
+                    </span>
+
+                    <span class="intro" id="time">
+                        4:58
+                    </span>
+
+                </div>
+
+                <div style="margin-bottom: 4px;">
+                    <span class="intro" id="message-header">
+                        Biggest sale of the year
+                    </span>
+                </div>
+
+                <div>
+                    <span class="intro" id="message">
+                        Hey there we are waiting to tell you about our...
+                    </span>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    
+</body>
+
+</html>

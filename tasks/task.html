@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <style>
+        #ccc {
+            display: block;
+            margin-top: 4px;
+        }
+
+        .textbox {
+            display: inline-block;
+            width: 280px;
+        }
+
+        .redbox {
+            background-color: red;
+            width: 200px;
+            height: 200px;
+            border: red;
+            margin-bottom: 10px;
+        }
+
+        .greencircle {
+            background-color: green;
+            height: 200px;
+            width: 200px;
+            border-radius: 200px;
+            margin-bottom: 10px;
+        }
+
+        .querybox {
+            text-align: center;
+            width: 200px;
+            height: 100px;
+            border: solid;
+            border-width: 1px;
+            border-color: gray;
+            margin-bottom: 10px;
+        }
+
+        .YT {
+            padding-left: 20px;
+            height: 100px;
+            width: 500px;
+            border: solid;
+            background-color: rgb(41, 41, 41);
+            margin-bottom: 10px;
+        }
+
+        #install {
+            color: white;
+            font-family: "Roboto", sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        #description {
+            font-family: "Roboto", sans-serif;
+            color: rgb(190, 190, 190);
+            font-weight: lighter;
+            font-size: 16px;
+        }
+
+        .imggg {
+            margin: 12px 15px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .twitter {
+            border: 1px solid gray;
+            border-radius: 6px;
+            box-shadow: 2px 2px 2px rgba(70, 70, 70, 0.2);
+            width: 500px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .searchbarr {
+            border: none;
+            height: 40px;
+            width: 300px;
+            font-size: 16px;
+            vertical-align: middle;
+            outline: none;
+        }
+
+        .Tweet {
+            background-color: rgb(29, 161, 242);
+            color: white;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: ;
+            margin-right: 4;
+            border-radius: 50px;
+            font-size: 14;
+            cursor: pointer;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            border: none;
+            border-color: rgb(29, 161, 242);
+            border-style: solid;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                Helvetica, Arial, sans-serif, "Apple Color Emoji",
+                "Segoe UI Emoji", "Segoe UI Symbol";
+            font-weight: bold;
+
+            transition: box-color 0.15s;
+
+        }
+
+        .Tweet:hover {
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.50);
+        }
+
+
+        .Tweet-2 {
+            background-color: rgb(29, 161, 242);
+            color: white;
+            margin-bottom: 2px;
+            padding-left: 8px;
+            padding-right: 8px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 4;
+            margin-right: 4;
+            border-radius: 50px;
+            font-size: 14;
+            cursor: pointer;
+            margin-top: 5px;
+            border: none;
+            border-color: rgb(29, 161, 242);
+            border-style: solid;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                Helvetica, Arial, sans-serif, "Apple Color Emoji",
+                "Segoe UI Emoji", "Segoe UI Symbol";
+            font-weight: bold;
+
+            transition: box-color 0.15s;
+
+        }
+
+        .Tweet-2:hover {
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.50);
+        }
+
+        .friend {
+            height: 350px;
+            width: 220px;
+            border: solid;
+            border-color: rgb(199, 199, 199);
+        }
+
+        .img-2 {
+            margin-top: 8px;
+            height: 200px;
+            width: 200px;
+            margin-bottom: 2px;
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+
+        .oliver {
+            margin-bottom: 2px;
+            padding-left: 8px;
+            padding-right: 8px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+
+        }
+
+        .mutual {
+            margin-bottom: 2px;
+            padding-left: 8px;
+            padding-right: 8px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: gray;
+
+        }
+
+        .trio {
+            height: 350px;
+            width: 900px;
+        }
+
+        .friend-2 {
+            display: inline-block;
+        }
+        .nested{
+            display: inline-block;
+            width: 500px;
+            height: 300px;
+        }
+        .srclogo{
+            display: inline-block;
+            width: 200px;        
+        }
+        .img-nest{
+            width: 100%;
+            
+        }
+        .texts{
+            display: inline-block;
+            vertical-align: top;
+            width: 100px;
+        }
+        .newtask{
+            border: salmon;
+            height: 150px;
+            width: 500px;
+        }
+        .roundpfp{
+            width: 25%;
+            display: inline-block;
+        }
+        .imgpfpf{
+            margin-top: 50px;
+            margin-left: 40px;
+            width: 50%;
+            height: 50%;
+            border-radius: 100%;
+            display: inline-block;
+        }
+        .oliver-the-cat{
+            display: inline-block;
+            width: 250px;
+        }
+        .followme{
+            display: inline-block;
+            vertical-align:top;
+            margin-top: 70px;
+            width: 40px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" placeholder="Name">
+    <input type="text" name="" id="ccc" placeholder="Email">
+    <p class="textbox">
+        Thanks for shopping with us,would you like to chat with our customer service and give us your valuable feedback?
+    </p>
+    <button>
+        Yes
+    </button>
+    <button>
+        No
+    </button>
+
+
+    <div class="redbox"></div>
+    <div class="greencircle"></div>
+    <div class="querybox">
+        <p>
+            Are you satisfied with our service?
+        </p>
+        <p>
+            <button>
+                Yes
+            </button>
+            <button>No</button>
+        </p>
+    </div>
+
+
+    <div class="YT">
+        <p id="install">
+            Install YouTube Music
+        </p>
+
+        <p id="description">
+            Add YouTube Music to your desktop for quick and easy access
+        </p>
+    </div>
+
+    <div class="twitter">
+        <img src="logo.jpg" class="imggg">
+        <input type="search" class="searchbarr" placeholder="What's happening?">
+        <button class="Tweet">
+            TWEET
+        </button>
+    </div>
+
+    <div class="friend">
+        <img src="logo.jpg" class=" img-2">
+        <p class="oliver">
+            Oliver
+        </p>
+        <p class="mutual">
+            2 mutual friends
+        </p>
+        <button class="Tweet-2">
+            Add friend
+        </button>
+
+    </div>
+
+    <div class="nested">
+        <div class="srclogo">
+            <img src="logo.jpg" class=" img-nest">
+        </div>
+
+        <div class="texts">
+            <p class="woosh">
+                Oliver
+            </p>
+
+            <p class="caty">
+                The cat
+            </p>
+
+            <p class="popu">
+                Popular
+            </p>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <div class="newtask">
+
+    <div class="roundpfp">
+        <img src="logo.jpg" class="imgpfpf">
+    </div>
+
+    <div class="oliver-the-cat">
+        <p>
+            oliver
+        </p>
+        <p>
+            the cat
+        </p>
+        <p>
+            Popular
+        </p>
+    </div>
+
+    <div class="followme">
+        <button class="Tweet">
+            FOLLOW
+        </button>
+    </div>
+
+
+   </div>
+</body>
+
+</html>
