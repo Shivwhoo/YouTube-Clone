@@ -78,7 +78,48 @@
     border-radius: 2px;
     border-width: 1px;
     border-color: rgb(219, 219, 219);
+    
 }
+
+.search-button,
+.voice,
+.header-upload,
+.header-apps,
+.notification-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.search-button .tooltip,
+.voice .tooltip,
+.header-upload .tooltip,
+.header-apps .tooltip,
+.notification-container .tooltip{
+    background-color: rgb(124, 121, 121);
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 11px;
+    position: absolute;
+    bottom: -43px;
+    padding: 4px;
+    padding-left: 8px;
+    border-radius: 2px;
+    padding-right: 8px;
+    opacity: 0;
+    transition: opacity 0.35s;
+    white-space: nowrap;
+}
+.search-button:hover .tooltip,
+.voice:hover .tooltip,
+.header-upload:hover .tooltip,
+.header-apps:hover .tooltip,
+.notification-container:hover .tooltip{
+    opacity: 1;
+}
+
 .search-icon{
     height: 25px;
     width: 100%;
