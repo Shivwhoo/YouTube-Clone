@@ -5,6 +5,24 @@
             row-gap: 20px;
         }
 
+        @media(max-width:750px){
+            .maincontainer{
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media(min-width:751px) and (max-width:999px){
+            .maincontainer{
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+
+        @media (min-width:1000px){
+            .maincontainer{
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+        }
+
         .t1 {
             display: block;
             width: 100%;
